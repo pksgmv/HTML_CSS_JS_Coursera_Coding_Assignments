@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, serif;
+}
+
+.heading {
+	text-align: center;
+}
+
+.sections {
+	width: 100%;
+}
+
+p {
+	padding: 10px 10px 10px 10px;
+}
+
+.section {
+	background-color: gray;
+	color: black;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+#google {
+	background-color: pink;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	padding: 4px 4px 4px 4px;
+}
+
+#apple {
+	background-color: red;
+	float: right;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	padding: 4px 4px 4px 4px;
+}
+
+#amazon {
+	background-color: yellow;
+	float: right;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	padding: 4px 4px 4px 4px;
+}
+
+
+/* For Desktop View */
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* For Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* For Mobile View */
+@media (max-width: 767px)  {
+  
+  .col-xs-12 {
+  	float: left;
+    width: 100%;
+  }
+}
